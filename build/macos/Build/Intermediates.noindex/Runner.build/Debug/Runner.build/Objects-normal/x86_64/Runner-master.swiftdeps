@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
-options: "7247fc2108b2cfc6033cd98a22fd09dc"
-build_time: [1625982734, 231894000]
+options: "89c4f847bd38ba4164860329b6deca57"
+build_time: [1626106802, 948783000]
 inputs:
-  "/Users/mac/Documents/admin_panel_responsive/admin_panel_responsive_flutter/macos/Runner/MainFlutterWindow.swift": [1611603814, 0]
-  "/Users/mac/Documents/admin_panel_responsive/admin_panel_responsive_flutter/macos/Runner/AppDelegate.swift": [1611603814, 0]
-  "/Users/mac/Documents/admin_panel_responsive/admin_panel_responsive_flutter/macos/Flutter/GeneratedPluginRegistrant.swift": [1625982719, 307397472]
+  "/Users/mac/Documents/admin_panel_responsive/flutter-ui-panel-dashboard/macos/Runner/MainFlutterWindow.swift": [1626106602, 355505569]
+  "/Users/mac/Documents/admin_panel_responsive/flutter-ui-panel-dashboard/macos/Runner/AppDelegate.swift": [1626106602, 354085515]
+  "/Users/mac/Documents/admin_panel_responsive/flutter-ui-panel-dashboard/macos/Flutter/GeneratedPluginRegistrant.swift": [1626106790, 429639468]
