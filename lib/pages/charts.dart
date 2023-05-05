@@ -367,7 +367,7 @@ class _LineChartSample2State extends State<LineChartSample2> {
         bottomTitles: SideTitles(
           showTitles: true,
           reservedSize: 22,
-          getTextStyles: (value) => const TextStyle(
+          getTextStyles: (context ,value) => const TextStyle(
               color: Color(0xff68737d),
               fontWeight: FontWeight.bold,
               fontSize: 16),
@@ -386,7 +386,7 @@ class _LineChartSample2State extends State<LineChartSample2> {
         ),
         leftTitles: SideTitles(
           showTitles: true,
-          getTextStyles: (value) => const TextStyle(
+          getTextStyles: (context, value) => const TextStyle(
             color: Color(0xff67727d),
             fontWeight: FontWeight.bold,
             fontSize: 15,
@@ -465,7 +465,7 @@ class _LineChartSample2State extends State<LineChartSample2> {
         bottomTitles: SideTitles(
           showTitles: true,
           reservedSize: 22,
-          getTextStyles: (value) => const TextStyle(
+          getTextStyles: (context, value) => const TextStyle(
               color: Color(0xff68737d),
               fontWeight: FontWeight.bold,
               fontSize: 16),
@@ -484,7 +484,7 @@ class _LineChartSample2State extends State<LineChartSample2> {
         ),
         leftTitles: SideTitles(
           showTitles: true,
-          getTextStyles: (value) => const TextStyle(
+          getTextStyles: (context, value) => const TextStyle(
             color: Color(0xff67727d),
             fontWeight: FontWeight.bold,
             fontSize: 15,
@@ -657,7 +657,7 @@ class LineChartSample1State extends State<LineChartSample1> {
         bottomTitles: SideTitles(
           showTitles: true,
           reservedSize: 22,
-          getTextStyles: (value) => const TextStyle(
+          getTextStyles: (context, value) => const TextStyle(
             color: Color(0xff72719b),
             fontWeight: FontWeight.bold,
             fontSize: 16,
@@ -677,7 +677,7 @@ class LineChartSample1State extends State<LineChartSample1> {
         ),
         leftTitles: SideTitles(
           showTitles: true,
-          getTextStyles: (value) => const TextStyle(
+          getTextStyles: (context, value) => const TextStyle(
             color: Color(0xff75729e),
             fontWeight: FontWeight.bold,
             fontSize: 14,
@@ -809,7 +809,7 @@ class LineChartSample1State extends State<LineChartSample1> {
         bottomTitles: SideTitles(
           showTitles: true,
           reservedSize: 22,
-          getTextStyles: (value) => const TextStyle(
+          getTextStyles: (context, value) => const TextStyle(
             color: Color(0xff72719b),
             fontWeight: FontWeight.bold,
             fontSize: 16,
@@ -829,7 +829,7 @@ class LineChartSample1State extends State<LineChartSample1> {
         ),
         leftTitles: SideTitles(
           showTitles: true,
-          getTextStyles: (value) => const TextStyle(
+          getTextStyles: (context, value) => const TextStyle(
             color: Color(0xff75729e),
             fontWeight: FontWeight.bold,
             fontSize: 14,
@@ -1120,7 +1120,7 @@ class BarChartSample2State extends State<BarChartSample2> {
                           show: true,
                           bottomTitles: SideTitles(
                             showTitles: true,
-                            getTextStyles: (value) => const TextStyle(
+                            getTextStyles: (context, value) => const TextStyle(
                                 color: Color(0xff7589a2),
                                 fontWeight: FontWeight.bold,
                                 fontSize: 14),
@@ -1148,7 +1148,7 @@ class BarChartSample2State extends State<BarChartSample2> {
                           ),
                           leftTitles: SideTitles(
                             showTitles: true,
-                            getTextStyles: (value) => const TextStyle(
+                            getTextStyles: (context,value) => const TextStyle(
                                 color: Color(0xff7589a2),
                                 fontWeight: FontWeight.bold,
                                 fontSize: 14),
